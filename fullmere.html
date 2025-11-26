@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futuristic Resume</title>
+  <link rel="stylesheet" href="port.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(circle at top, #0a0f2d, #000000);
+  color: #d6e1ff;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  border: 1px solid rgba(80,100,255,0.3);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 0 25px rgba(0, 200, 255, 0.25);
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 36px;
+  margin: 0;
+  letter-spacing: 2px;
+  color: #76a8ff;
+  text-shadow: 0 0 10px rgba(80,150,255,0.9);
+}
+
+.role {
+  font-size: 20px;
+  color: #9db6ff;
+  margin-top: 8px;
+}
+
+.contact {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #bdccff;
+}
+
+
+section h3 {
+  font-family: "Orbitron";
+  border-left: 4px solid #67c8ff;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  color: #67c8ff;
+  text-shadow: 0 0 8px rgba(80,200,255,1);
+}
+
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills span {
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: rgba(80,150,255,0.15);
+  border: 1px solid rgba(120,180,255,0.3);
+  backdrop-filter: blur(6px);
+  color: #a9caff;
+  font-weight: 500;
+  text-shadow: 0 0 6px rgba(120,180,255,0.6);
+}
+
+
+.card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(100,150,255,0.25);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0,150,255,0.2);
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #8ebeff;
+  text-shadow: 0 0 6px rgba(120,150,255,0.7);
+}
+
+.card .year {
+  font-size: 14px;
+  color: #9bb2d9;
+  margin-bottom: 10px;
+}
+
+
+.card ul li {
+  margin-bottom: 6px;
+  list-style: none;
+  position: relative;
+  padding-left: 16px;
+}
+
+.card ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  background: #78baff;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #78baff;
+}
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIQ40UACBhEOuo_xTJAAq3OCP08GVt7n3Dwg&s" >
+    <h1>Wongsakon – Khetchatturat</h1>
+    <h2 class="role">Front-End Developer</h2>
+    <p class="contact">Email: wongsakonkhetchutturat@email.com | Tel: 0934275974</p>
+    <p class="contact" ><a href ="https://www.instagram.com/kokongone/" target="_blank">IG : kokongone</a></p>
+    <p class="contact"><a href="https://www.facebook.com/m.w.hin.hin.m.w">FB  : แมวไหน ไหนแมว</a></p>
+  </header>
+
+  <section>
+    <h3>🔷 สรุปประวัติ</h3>
+    <p>
+      นักพัฒนาเว็บไซต์ผู้หลงใหลเทคโนโลยีแนวอนาคต ชอบสร้าง UI 
+      ที่ลื่นไหลและมีเอกลักษณ์ พร้อมออกแบบประสบการณ์ผู้ใช้ให้ดียิ่งขึ้น
+    </p>
+  </section>
+
+  <section>
+    <h3>🔷 ทักษะ</h3>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Java</span>
+      <span>Figma</span>
+      <span>UI/UX</span>
+    </div>
+  </section>
+
+  <section>
+    <h3>🔷 ประสบการณ์ทำงาน</h3>
+
+    <div class="card">
+      <h4>Front-End Developer — XYZ Company</h4>
+      <p class="year">2022 – ปัจจุบัน</p>
+      <ul>
+        <li>พัฒนา UI เว็บไซต์แบบ Responsive</li>
+        <li>ออกแบบ Component ที่ดูทันสมัยและใช้งานง่าย</li>
+        <li>เพิ่มประสิทธิภาพเว็บไซต์ด้วยเทคนิค Performance Optimization</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h4>Web Designer — ABC Studio</h4>
+      <p class="year">2020 – 2025</p>
+      <ul>
+        <li>ออกแบบ Landing Page สไตล์ Cyber / Futuristic</li>
+        <li>ทำงานร่วมกับนักพัฒนาเพื่อสร้างประสบการณ์ผู้ใช้งานที่ดีที่สุด</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h3>🔷 ประวัติการศึกษา</h3>
+
+    <div class="card">
+      <h4>ปริญญาตรี — Phayao University</h4>
+      <p class="year">2017 – 2021</p>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
